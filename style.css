@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 84);
+    padding: 10px 5px;
+}
+
+#mainDiv {
+    background-color: #fff;
+    margin: 0px;
+    padding: 20px 10px;
+}
+
+#topHr {
+    background-color: black;
+    min-height: 5px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#upperDiv {
+    display: grid;
+    grid-template-columns: 25% 37% 37%;
+    gap: 1em;
+}
+
+.borderTop {
+    border-top: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topMidDiv {
+    width: 350px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#middleDiv {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 1em;
+}
+
+hr {
+    background-color: black;
+    min-height: 1px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;   
+}
+
+#bottomDiv {
+    display: grid;
+    grid-template-columns: 25% 37% 37%;
+    gap: 1em;
+}
+
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#skillsLevel {
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xx-large;
+}
